@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="result-card">
+        <p>Your Result</p>
+        <div class="score">
+          <span>76</span>
+          <small>of 100</small>
+        </div>
+        <p><span>Great</span></p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary-card">
+        <p>Summary</p>
+        <ul>
+          <li class="reaction">
+            <div>
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="Reaction Icon"
+              />Reaction
+            </div>
+            <div><span>80 </span>/ 100</div>
+          </li>
+          <li class="memory">
+            <div>
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="Memory Icon"
+              />Memory
+            </div>
+            <div><span>92 </span>/ 100</div>
+          </li>
+          <li class="verbal">
+            <div>
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="Verbal Icon"
+              />Verbal
+            </div>
+            <div><span>61 </span>/ 100</div>
+          </li>
+          <li class="visual">
+            <div>
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="visual Icon"
+              />Visual
+            </div>
+            <div><span>72 </span>/ 100</div>
+          </li>
+        </ul>
+        <button class="btn">Continue</button>
+      </section>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/mahbt">Mahbt</a>.
+    </div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
